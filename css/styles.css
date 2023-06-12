@@ -1,5 +1,9 @@
-.page {}
-
+.body {
+    font-family: Roboto, Raleway, sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
 .header {}
 
 .nav {}
@@ -30,7 +34,9 @@
 
 .hero-title {}
 
-.hero-btn {}
+.hero-btn {
+    cursor: pointer;
+}
 
 .advantages-list {
 }
