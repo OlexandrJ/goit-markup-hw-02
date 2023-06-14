@@ -4,9 +4,40 @@
 ul, ol {
     list-style: none;
 }
-.header {}
+.header {
+    position: absolute;
+        width: 1440px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+}
+.web {
+    width: 44px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;   
+        color: #4D5AE5;
+}
+.studio {
+    width: 71px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+.nav {
 
-.nav {}
+}
 
 .logo {
     display: flex;
@@ -20,13 +51,62 @@ ul, ol {
         top: 24px;
 }
 
-.header-list {}
+.header-list {
+        flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 40px;
+            position: absolute;
+            width: 261px;
+            height: 24px;
+            left: 347px;
+            top: 24px;
+}
 
-.header-item {}
+.header-item {
+    width: 48px;
+        height: 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;   
+        color: #2E2F42;
+}
 
 .header-link {}
 
 .address {}
+
+.mail {
+    position: absolute;
+        width: 153px;
+        height: 24px;
+        left: 940px;
+        top: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.number {
+    position: absolute;
+        width: 151px;
+        height: 24px;
+        left: 1133px;
+        top: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 .section {}
 
