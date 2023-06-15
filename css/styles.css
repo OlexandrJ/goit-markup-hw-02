@@ -18,7 +18,7 @@ ol {
 .link,
 a {
      text-decoration: none
-      color: currentColor;
+      color: var(--bg-black);
   }
 
 .btn,
@@ -232,19 +232,22 @@ a {
 }
 
 .portfolio-but {
-    font-family: 'Roboto';
+        font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4D5AE5;
+        background-color: var(--bg-team);
+        cursor: pointer;
 }
 
-.portfolio-but:hover,
+.portfolio-but:hover {
+    color: var(--bg-white);
+    background-color: #404BBF;
+}
 .portfolio-but:focus {
-            text-align: center;
-            letter-spacing: 0.04em;
-            color: #FFFFFF;
-        background: #404BBF;
+    color: var(--bg-white);
+    background-color: #404BBF;
 }
