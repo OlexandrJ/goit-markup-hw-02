@@ -1,6 +1,14 @@
+:root {
+    --bg-white: #ffffff;
+    --bg-black: #2e2f42;
+    --bg-team: #f4f4fd;
+    --color-text: #434455
+}
+
 .body {
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: "Roboto" sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 .list,
 ul,
@@ -19,26 +27,23 @@ a {
     cursor: pointer;
 }
 
-.header {
-        background-color: #ffffff;
-}
+.header {}
 
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.web {
-        color: #4D5AE5;
-}
 .studio {
     color: #2E2F42;
 }
+
 .studio-down {
         color: #F4F4FD;
 }
@@ -99,8 +104,6 @@ a {
 
 .hero-btn {
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -204,7 +207,8 @@ a {
 }
 
 .footer {
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
+    text-decoration: none;
 }
 
 .footer-description {
@@ -228,12 +232,8 @@ a {
 
 .portfolio-but:hover,
 .portfolio-but:focus {
-            display: flex;
-            align-items: center;
             text-align: center;
             letter-spacing: 0.04em;
             color: #FFFFFF;
         background: #404BBF;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
 }
