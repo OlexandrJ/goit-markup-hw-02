@@ -17,7 +17,7 @@ ol {
 }
 .link,
 a {
-      text-decoration: none;
+     text-decoration: none
       color: currentColor;
   }
 
@@ -60,13 +60,15 @@ a {
 }
 
 .header-link {
-    color: #434455;
+    color: var(--color-text);
     text-decoration: none;
 }
 
-.header-link:hover,
+.header-link:hover {
+        color: #404bbf;
+}
 .header-link:focus {
-        color: #404BBF;
+        color: #404bbf;
 }
 
 .address {
