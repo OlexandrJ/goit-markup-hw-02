@@ -17,7 +17,7 @@ ol {
 }
 .link,
 a {
-     text-decoration: none
+     text-decoration: none;
       color: var(--bg-black);
   }
 
@@ -73,6 +73,7 @@ a {
 
 .address {
     font-style: normal;
+    color: var(-color-text);
 }
 
 .adress-link {
