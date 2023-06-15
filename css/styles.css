@@ -73,7 +73,6 @@ a {
 
 .address {
     font-style: normal;
-    color: var(-color-text);
 }
 
 .adress-link {
@@ -145,7 +144,6 @@ a {
 }
 
 .advantages-title {
-                    font-family: 'Roboto';
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 1.2;
