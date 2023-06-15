@@ -6,7 +6,7 @@
 }
 
 .body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -41,11 +41,11 @@ a {
 }
 
 .studio {
-    color: #2E2F42;
+    color: var(--bg-black);
 }
 
 .studio-down {
-        color: #F4F4FD;
+        color: var(--bg-team);
 }
 .nav { 
 }
@@ -56,7 +56,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--bg-black);
 }
 
 .header-link {
@@ -101,7 +101,14 @@ a {
 }
 
 .hero-btn {
-        background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4D5AE5;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -169,7 +176,9 @@ a {
 
 .doing-item {}
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
         font-family: 'Roboto';
@@ -184,7 +193,9 @@ a {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF
+}
 
 .team-name {
         font-family: 'Roboto';
